@@ -1,6 +1,6 @@
 import frappe
 from frappe.utils import flt, getdate, add_months
-#Aqiq
+#Aqiq solutions
 @frappe.whitelist()
 def get_payment_terms_customized(payment_method, payment_period_in_months, monthly_payment,terms_template, posting_date=None, start_date=None, period_frequency=None, grand_total=None, base_grand_total=None, deposit_amount=None, bill_date=None):
     term_details_object = get_payment_term_details_customized(
