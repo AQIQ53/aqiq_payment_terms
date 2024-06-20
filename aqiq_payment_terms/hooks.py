@@ -219,6 +219,8 @@ app_license = "mit"
 # auth_hooks = [
 #	"aqiq_payment_terms.auth.validate"
 # ]
+
+
 fixtures = [
     "Client Script",
     "Custom Field",
