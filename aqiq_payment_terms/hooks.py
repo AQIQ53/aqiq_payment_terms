@@ -5,7 +5,6 @@ app_description = "Aqiq Payment Terms"
 app_email = "info@aqiq.com"
 app_license = "mit"
 # required_apps = []
-
 # Includes in <head>
 # ------------------
 
